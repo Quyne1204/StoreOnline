@@ -8,13 +8,15 @@
     <title>Store Online</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="public/styles/style.css">
     <link rel="stylesheet" href="public/styles/navbar.css">
+    <link rel="stylesheet" href="public/styles/slide.css">
 </head>
 
 <body>
     <div class="container-fuild " style="background-color: rgb(73,73,73);">
-        <div class="container-md">
+        <div class="container-md px-lg-5">
             <div class="text-white">
                 <div class="row">
                     <div class="col-sm-8 col-6">
@@ -34,7 +36,7 @@
         </div>
     </div>
     <div class="container-fuild bg-dark ">
-        <div class="container-md">
+        <div class="container-md px-lg-5">
             <div class="Search-Bar bg-dark row align-items-center p-3">
                 <div class="col-12 col-sm-3">
                     <img src="">
@@ -55,7 +57,7 @@
         </div>
     </div>
     <div class="container-fuild " style="background-color: rgb(73,73,73);">
-        <div class="container-md">
+        <div class="container-md px-lg-5">
             <div class="text-white">
                 <div class="d-flex align-items-center">
                     <div class="d-flex justify-content-start w-75">
@@ -70,10 +72,26 @@
                                 <li class="btn-li">
                                     <div class="dropdown">
                                         <button class="dropbtn"><a href="" onclick="setActive(2)">Sản phẩm</a></button>
-                                        <div class="dropdown-content" >
-                                            <a href="#">Link 1</a>
-                                            <a href="#">Link 2</a>
-                                            <a href="#">Link 3</a>
+                                        <div class="dropdown-content">
+                                            <a href="#">Máy tính</a>
+                                            <a href="#">Phụ kiện máy tính</a>
+                                            <a href="#">Điện thoại di động</a>
+                                            <div class="child-drop w-100">
+                                                <a href="#">Phụ kiện điện thoại</a>
+                                                <svg class="icon-down" xmlns="http://www.w3.org/2000/svg" height="14"
+                                                    width="7" viewBox="0 0 256 512">
+                                                    <path
+                                                        d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z" />
+                                                </svg>
+                                                <div class="child-drop-content">
+                                                    <a href="#">Tai nghe điện thoại</a>
+                                                    <a href="#">Miếng dán điện thoại</a>
+                                                    <a href="#">Pin, sạc điện thoại</a>
+                                                </div>
+                                            </div>
+                                            <a href="#">Sản phẩm mới</a>
+                                            <a href="#">Sản phẩm nổi bật</a>
+                                            <a href="#">Sản phẩm khuyến mãi</a>
                                         </div>
                                     </div>
                                 </li>
@@ -139,7 +157,7 @@
         </div>
     </div>
     <div class="container-fuild bg-body-secondary d-md-block d-none">
-        <div class="container-md">
+        <div class="container-md px-lg-5">
             <div class="row text-uppercase py-2">
                 <div class="col-3  justify-content-center align-items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" height="14" width="17.5" viewBox="0 0 640 512">
