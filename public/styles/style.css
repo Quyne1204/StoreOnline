@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 14px 0px;
+}
+
+ul li a:active {
+    color: red;
+}
+
+ul li a:hover {
+    color: red;
+    border-bottom: 4px solid red;
+}
+
+@media only screen and (max-width: 990px) {
+    ul li {
+        list-style: none;
+        margin-right: 25px;
+    }
+}
